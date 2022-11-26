@@ -13,7 +13,6 @@ const Index = () => {
   const [password, setPassword] = useState("")
   const [isPassword, setIsPassword] = useState(true)
   const [isChecked, setIsChecked] = useState(true)
-  const [showPassword, setShowPassword] = useState(false)
 
   const user = {
     name: "",
@@ -100,7 +99,7 @@ const Index = () => {
   return (
     <>
       <div className="flex justify-center items-center h-screen">
-        <div className="max-w-[460px] h-fit">
+        <div className="w-[460px] h-fit">
           <img src="/svg/logo.svg" alt="" className="mx-auto mb-16" />
           <div>
             <h1 className="font-medium text-authH1 mb-4">
@@ -144,7 +143,7 @@ const Index = () => {
                 label="Password"
                 value={password}
                 placeholder="6+ characters and a number"
-                type={showPassword ? "text" : "password"}
+                type="password"
                 isError={!isPassword}
                 errorMessage="Password must be at least 6 characters and must have a number"
                 onChange={(e: React.SyntheticEvent) => {
