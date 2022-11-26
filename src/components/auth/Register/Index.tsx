@@ -166,7 +166,7 @@ const Index = () => {
                 type="submit"
                 className="w-full bg-orange53 text-white py-[14.5px] rounded-[10px]"
               >
-                Sign in
+                Sign up
               </button>
             </form>
           </div>

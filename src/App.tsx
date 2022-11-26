@@ -88,7 +88,7 @@ const router = createBrowserRouter(
 
 const App = () => {
   return (
-    <div className=" font-manrope">
+    <div className=" font-manrope ">
       <Provider store={store}>
         <RouterProvider router={router} />
       </Provider>

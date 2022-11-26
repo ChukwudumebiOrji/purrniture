@@ -22,7 +22,7 @@ const Input = ({
         {...rest}
         className="w-full px-6 py-[14px] rounded-[10px] bg-grayBg mb-2 outline-none"
       />
-      {isError && <p className="text-red">{errorMessage}</p>}
+      {isError && <p className=" text-red-600">{errorMessage}</p>}
     </div>
   )
 }
